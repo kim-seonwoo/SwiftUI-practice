@@ -12,6 +12,7 @@
 		0BD9102E2B725572008345EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD9102D2B725572008345EA /* Assets.xcassets */; };
 		0BD910312B725572008345EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD910302B725572008345EA /* Preview Assets.xcassets */; };
 		0BD910382B725C75008345EA /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD910372B725C75008345EA /* TextBootcamp.swift */; };
+		0BD9103A2B726164008345EA /* ShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD910392B726163008345EA /* ShapeBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0BD9102D2B725572008345EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BD910302B725572008345EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0BD910372B725C75008345EA /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		0BD910392B726163008345EA /* ShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				0BD910292B725571008345EA /* SwiftUI_practiceApp.swift */,
 				0BD9102B2B725571008345EA /* ContentView.swift */,
 				0BD910372B725C75008345EA /* TextBootcamp.swift */,
+				0BD910392B726163008345EA /* ShapeBootcamp.swift */,
 				0BD9102D2B725572008345EA /* Assets.xcassets */,
 				0BD9102F2B725572008345EA /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD9103A2B726164008345EA /* ShapeBootcamp.swift in Sources */,
 				0BD9102C2B725571008345EA /* ContentView.swift in Sources */,
 				0BD910382B725C75008345EA /* TextBootcamp.swift in Sources */,
 				0BD9102A2B725571008345EA /* SwiftUI_practiceApp.swift in Sources */,
