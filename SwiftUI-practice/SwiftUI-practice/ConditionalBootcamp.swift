@@ -11,12 +11,15 @@ struct ConditionalBootcamp: View {
     @State var isTrue: Bool = true
     
     var body: some View {
-        Button("Button") {
+        Button("Button: \(isTrue.description)") {
             isTrue.toggle()
         }
         
         if isTrue {
             Circle()
+                .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+        } else {
+            Rectangle()
                 .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
         }
     }
@@ -24,4 +27,4 @@ struct ConditionalBootcamp: View {
 
 #Preview {
     ConditionalBootcamp()
-}
+}v
