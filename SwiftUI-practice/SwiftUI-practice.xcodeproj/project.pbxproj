@@ -21,6 +21,7 @@
 		0BD910462B735D16008345EA /* backgroundOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD910452B735D16008345EA /* backgroundOverlayBootcamp.swift */; };
 		0BD910482B73A418008345EA /* StackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD910472B73A418008345EA /* StackBootcamp.swift */; };
 		0BD9104A2B74B04C008345EA /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD910492B74B04C008345EA /* ConditionalBootcamp.swift */; };
+		0BD9104C2B7A671E008345EA /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD9104B2B7A671E008345EA /* TransitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		0BD910452B735D16008345EA /* backgroundOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundOverlayBootcamp.swift; sourceTree = "<group>"; };
 		0BD910472B73A418008345EA /* StackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBootcamp.swift; sourceTree = "<group>"; };
 		0BD910492B74B04C008345EA /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
+		0BD9104B2B7A671E008345EA /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		0BD9101D2B725571008345EA = {
 			isa = PBXGroup;
 			children = (
+				0BD9104B2B7A671E008345EA /* TransitionBootcamp.swift */,
 				0BD910282B725571008345EA /* SwiftUI-practice */,
 				0BD910272B725571008345EA /* Products */,
 			);
@@ -170,6 +173,7 @@
 				0BD910482B73A418008345EA /* StackBootcamp.swift in Sources */,
 				0BD9103C2B7264D1008345EA /* ColorBootcamp.swift in Sources */,
 				0BD9103A2B726164008345EA /* ShapeBootcamp.swift in Sources */,
+				0BD9104C2B7A671E008345EA /* TransitionBootcamp.swift in Sources */,
 				0BD910442B7359EF008345EA /* FrameBootcamp.swift in Sources */,
 				0BD910402B734A64008345EA /* IconBootcamp.swift in Sources */,
 				0BD9102C2B725571008345EA /* ContentView.swift in Sources */,
