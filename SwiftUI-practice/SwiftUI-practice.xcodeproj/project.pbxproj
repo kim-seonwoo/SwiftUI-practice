@@ -64,6 +64,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0CC2692B7F12DA00E925BC /* BootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				0BD9104B2B7A671E008345EA /* TransitionBootcamp.swift */,
+				0BD910412B735650008345EA /* ImageBootcamp.swift */,
+				0BD9102B2B725571008345EA /* ContentView.swift */,
+				0BD910372B725C75008345EA /* TextBootcamp.swift */,
+				0BD910392B726163008345EA /* ShapeBootcamp.swift */,
+				0BD9103B2B7264D1008345EA /* ColorBootcamp.swift */,
+				0BD910452B735D16008345EA /* backgroundOverlayBootcamp.swift */,
+				0BD910472B73A418008345EA /* StackBootcamp.swift */,
+				0BD9103D2B73461F008345EA /* GradientBootcamp.swift */,
+				0BD9103F2B734A64008345EA /* IconBootcamp.swift */,
+				0BD910432B7359EF008345EA /* FrameBootcamp.swift */,
+				0BD910492B74B04C008345EA /* ConditionalBootcamp.swift */,
+				0B4A86A92B7BB18600D97E9B /* ToggleBootcamp.swift */,
+				0B4A86AB2B7BB2A500D97E9B /* PickerBootcamp.swift */,
+			);
+			path = BootCamp;
+			sourceTree = "<group>";
+		};
 		0B4A86AD2B7CFEAD00D97E9B /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,24 +114,11 @@
 		0BD910282B725571008345EA /* SwiftUI-practice */ = {
 			isa = PBXGroup;
 			children = (
-				0B4A86AD2B7CFEAD00D97E9B /* Onboarding */,
-				0BD9104B2B7A671E008345EA /* TransitionBootcamp.swift */,
 				0BD910292B725571008345EA /* SwiftUI_practiceApp.swift */,
-				0BD910412B735650008345EA /* ImageBootcamp.swift */,
-				0BD9102B2B725571008345EA /* ContentView.swift */,
-				0BD910372B725C75008345EA /* TextBootcamp.swift */,
-				0BD910392B726163008345EA /* ShapeBootcamp.swift */,
-				0BD9103B2B7264D1008345EA /* ColorBootcamp.swift */,
-				0BD910452B735D16008345EA /* backgroundOverlayBootcamp.swift */,
-				0BD910472B73A418008345EA /* StackBootcamp.swift */,
-				0BD9103D2B73461F008345EA /* GradientBootcamp.swift */,
-				0BD9103F2B734A64008345EA /* IconBootcamp.swift */,
 				0BD9102D2B725572008345EA /* Assets.xcassets */,
+				0B0CC2692B7F12DA00E925BC /* BootCamp */,
+				0B4A86AD2B7CFEAD00D97E9B /* Onboarding */,
 				0BD9102F2B725572008345EA /* Preview Content */,
-				0BD910432B7359EF008345EA /* FrameBootcamp.swift */,
-				0BD910492B74B04C008345EA /* ConditionalBootcamp.swift */,
-				0B4A86A92B7BB18600D97E9B /* ToggleBootcamp.swift */,
-				0B4A86AB2B7BB2A500D97E9B /* PickerBootcamp.swift */,
 			);
 			path = "SwiftUI-practice";
 			sourceTree = "<group>";
