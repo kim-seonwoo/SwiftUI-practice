@@ -26,10 +26,10 @@ struct AddView: View {
             
             Button(action: saveButtonPressed, label: {
                 Text("Save".uppercased())
-                    .foregroundColor(.white)
+                    .foregroundColor(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
-                    .background(.black)
+                    .background(.secondary)
                     .cornerRadius(10)
             })
         }

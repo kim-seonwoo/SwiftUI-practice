@@ -10,13 +10,27 @@ import SwiftUI
 @main
 struct SwiftUI_practiceApp: App {
     @StateObject var listViewModel: ListViewModel = ListViewModel()
+    @State var isLaunching: Bool = true
     
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                ListView()
+            if isLaunching {
+                SplashView()
+                    .onAppear {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                            isLaunching = false
+                        }
+                    }
+            } else {
+                NavigationView {
+                    ListView()
+                }
+                .environmentObject(listViewModel)
             }
-            .environmentObject(listViewModel)
         }
+        
     }
 }
+
+
+

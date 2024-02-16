@@ -12,14 +12,17 @@ struct ListRowView: View {
     let item: ItemModel
     
     var body: some View {
-        HStack {
-            Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
-                .foregroundColor(item.isCompleted ? .green : .red)
-            Text(item.title)
-            Spacer()
+        ZStack {
+            HStack {
+                Image(systemName: item.isCompleted ? "checkmark.circle" : "circle")
+                    .foregroundColor(item.isCompleted ? .green : .red)
+                Text(item.title)
+                    .foregroundColor(.primary)
+                Spacer()
+            }
+            .font(.title2)
+            .padding(.vertical, 8)
         }
-        .font(.title2)
-        .padding(.vertical, 8)
     }
 }
 

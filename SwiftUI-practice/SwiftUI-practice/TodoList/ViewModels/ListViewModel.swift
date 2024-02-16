@@ -8,6 +8,12 @@
 // CRUD 동작이 들어가 있음.
 import Foundation
 
+enum GroupAmount {
+    case level1
+    case level2
+    case level3
+}
+
 class ListViewModel: ObservableObject {
     
     @Published var items: [ItemModel] = [] {
@@ -23,12 +29,6 @@ class ListViewModel: ObservableObject {
     }
     
     func getItems() {
-//        let newItems = [
-//            ItemModel(title: "First", isCompleted: true),
-//            ItemModel(title: "Second", isCompleted: false),
-//            ItemModel(title: "Third", isCompleted: true),
-//        ]
-//        items.append(contentsOf: newItems)
         guard 
             let data = UserDefaults.standard.data(forKey: itemsKey),
             let savedItems = try? JSONDecoder().decode([ItemModel].self, from: data)
@@ -59,6 +59,44 @@ class ListViewModel: ObservableObject {
     func saveItems() {
         if let encodedData = try? JSONEncoder().encode(items) {
             UserDefaults.standard.set(encodedData, forKey: itemsKey)
+        }
+    }
+    
+    func countCompleted() -> Int {
+        return items.filter { $0.isCompleted }.count
+    }
+    
+    func countGroupAmount() -> GroupAmount {
+        let completedCount = items.filter { $0.isCompleted }.count
+        switch completedCount {
+        case ..<5:
+            return .level1
+        case 5..<10:
+            return .level2
+        default:
+            return .level3
+        }
+    }
+    
+    func nameGroup() -> String {
+        switch countGroupAmount() {
+        case .level1:
+            return "분대"
+        case .level2:
+            return "소대"
+        case .level3:
+            return "중대"
+        }
+    }
+    
+    func soldierLevel() -> String {
+        switch countGroupAmount() {
+        case .level1:
+            return "level1"
+        case .level2:
+            return "level2"
+        case .level3:
+            return "level3"
         }
     }
 }
