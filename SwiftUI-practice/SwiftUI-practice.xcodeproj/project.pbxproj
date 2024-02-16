@@ -10,6 +10,9 @@
 		0B0CC2682B7E067600E925BC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC2672B7E067600E925BC /* ProfileView.swift */; };
 		0B0CC26D2B7F3C1200E925BC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC26C2B7F3C1200E925BC /* ListView.swift */; };
 		0B0CC26F2B7F3DD000E925BC /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC26E2B7F3DD000E925BC /* ListRowView.swift */; };
+		0B0CC2712B7F432C00E925BC /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC2702B7F432C00E925BC /* AddView.swift */; };
+		0B0CC2742B7F48A800E925BC /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC2732B7F48A800E925BC /* ItemModel.swift */; };
+		0B0CC2772B7F4E6700E925BC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC2762B7F4E6700E925BC /* ListViewModel.swift */; };
 		0B4A86AA2B7BB18600D97E9B /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A86A92B7BB18600D97E9B /* ToggleBootcamp.swift */; };
 		0B4A86AC2B7BB2A500D97E9B /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A86AB2B7BB2A500D97E9B /* PickerBootcamp.swift */; };
 		0B4A86AF2B7CFEBF00D97E9B /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A86AE2B7CFEBF00D97E9B /* IntroView.swift */; };
@@ -35,6 +38,9 @@
 		0B0CC2672B7E067600E925BC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0B0CC26C2B7F3C1200E925BC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		0B0CC26E2B7F3DD000E925BC /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		0B0CC2702B7F432C00E925BC /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		0B0CC2732B7F48A800E925BC /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		0B0CC2762B7F4E6700E925BC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		0B4A86A92B7BB18600D97E9B /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
 		0B4A86AB2B7BB2A500D97E9B /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
 		0B4A86AE2B7CFEBF00D97E9B /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -92,6 +98,8 @@
 		0B0CC26A2B7F3B4500E925BC /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				0B0CC2752B7F4CA400E925BC /* ViewModels */,
+				0B0CC2722B7F488700E925BC /* Models */,
 				0B0CC26B2B7F3C0300E925BC /* Views */,
 			);
 			path = TodoList;
@@ -102,8 +110,25 @@
 			children = (
 				0B0CC26C2B7F3C1200E925BC /* ListView.swift */,
 				0B0CC26E2B7F3DD000E925BC /* ListRowView.swift */,
+				0B0CC2702B7F432C00E925BC /* AddView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0B0CC2722B7F488700E925BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B0CC2732B7F48A800E925BC /* ItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B0CC2752B7F4CA400E925BC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0B0CC2762B7F4E6700E925BC /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		0B4A86AD2B7CFEAD00D97E9B /* Onboarding */ = {
@@ -227,6 +252,7 @@
 				0B0CC26D2B7F3C1200E925BC /* ListView.swift in Sources */,
 				0B4A86AF2B7CFEBF00D97E9B /* IntroView.swift in Sources */,
 				0BD9103C2B7264D1008345EA /* ColorBootcamp.swift in Sources */,
+				0B0CC2742B7F48A800E925BC /* ItemModel.swift in Sources */,
 				0BD9103A2B726164008345EA /* ShapeBootcamp.swift in Sources */,
 				0BD9104C2B7A671E008345EA /* TransitionBootcamp.swift in Sources */,
 				0B4A86AC2B7BB2A500D97E9B /* PickerBootcamp.swift in Sources */,
@@ -237,10 +263,12 @@
 				0BD9102C2B725571008345EA /* ContentView.swift in Sources */,
 				0B0CC2682B7E067600E925BC /* ProfileView.swift in Sources */,
 				0BD910462B735D16008345EA /* backgroundOverlayBootcamp.swift in Sources */,
+				0B0CC2712B7F432C00E925BC /* AddView.swift in Sources */,
 				0BD910382B725C75008345EA /* TextBootcamp.swift in Sources */,
 				0BD9103E2B73461F008345EA /* GradientBootcamp.swift in Sources */,
 				0BD9104A2B74B04C008345EA /* ConditionalBootcamp.swift in Sources */,
 				0BD910422B735650008345EA /* ImageBootcamp.swift in Sources */,
+				0B0CC2772B7F4E6700E925BC /* ListViewModel.swift in Sources */,
 				0B4A86B12B7CFFFC00D97E9B /* OnboardingView.swift in Sources */,
 				0BD9102A2B725571008345EA /* SwiftUI_practiceApp.swift in Sources */,
 			);
