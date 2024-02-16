@@ -34,7 +34,7 @@ struct AddView: View {
             })
         }
         .padding(14)
-        .navigationTitle("Add an Item")
+        .navigationTitle("할일을 추가하세요.")
         .alert(isPresented: $showAlert, content: getAlert)
     }
     

@@ -12,21 +12,29 @@ struct ListView: View {
     @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
-        List {
-            ForEach(listViewModel.items) { item in
-                ListRowView(item: item)
-                    .onTapGesture {
-                        withAnimation(.linear) {
-                            listViewModel.updateItem(item: item)
+        VStack {
+            Text("\(listViewModel.items.count)개")
+                .font(.title3)
+                .frame(maxWidth: .infinity)
+                .frame(alignment: .leading)
+            List {
+                ForEach(listViewModel.items) { item in
+                    ListRowView(item: item)
+                        .onTapGesture {
+                            withAnimation(.linear) {
+                                listViewModel.updateItem(item: item)
+                            }
                         }
-                    }
+                }
+                .onDelete(perform: listViewModel.deleteItem)
+                .onMove(perform: listViewModel.moveItem)
             }
-            .onDelete(perform: listViewModel.deleteItem)
-            .onMove(perform: listViewModel.moveItem)
+            .listStyle(.plain)
+            .navigationTitle("김선우의 Todo")
+            .navigationBarItems(leading: EditButton()
+                , trailing: NavigationLink("Add", destination: AddView()
+                                      )).foregroundColor(.black)
         }
-        .listStyle(.plain)
-        .navigationTitle("Todo List")
-        .navigationBarItems(leading: EditButton(), trailing: NavigationLink("Add", destination: AddView()))
     }
 }
 
