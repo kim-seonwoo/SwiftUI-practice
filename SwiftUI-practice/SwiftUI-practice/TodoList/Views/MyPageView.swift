@@ -20,7 +20,7 @@ struct MyPageView: View {
                     .font(.title)
                     .fontWeight(.bold)
                     .fontDesign(.rounded)
-                    .foregroundColor(.black)
+                    .foregroundColor(animate ? .red : .black)
                 
                 let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 5)
                 LazyVGrid(columns: columns) {
@@ -30,17 +30,22 @@ struct MyPageView: View {
                             .scaledToFit()
                             .frame(width: 100)
                             .padding()
-                            .onAppear(perform: animation)
                     }
                 }
             }
         }
         .background(.white)
+        .onAppear(perform: animation)
     }
     
     func animation() {
+        guard !animate else {return}
         DispatchQueue.main.asyncAfter(deadline: .now() + 4.5) {
-            withAnimation(.easeInOut) {
+            withAnimation(
+                Animation
+                    .easeInOut(duration: 0.3)
+                    .repeatForever()
+            ) {
                 animate.toggle()
             }
         }
