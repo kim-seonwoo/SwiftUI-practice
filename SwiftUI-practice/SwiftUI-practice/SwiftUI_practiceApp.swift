@@ -23,7 +23,7 @@ struct SwiftUI_practiceApp: App {
                     }
             } else {
                 NavigationView {
-                    ListView()
+                    LandmarkRow(landmark: landmarks[0])
                 }
                 .environmentObject(listViewModel)
             }
