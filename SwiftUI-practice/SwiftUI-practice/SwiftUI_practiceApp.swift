@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct SwiftUI_practiceApp: App {
+    @State private var modelData = ModelData()
     @StateObject var listViewModel: ListViewModel = ListViewModel()
     @State var isLaunching: Bool = true
     
@@ -23,7 +24,8 @@ struct SwiftUI_practiceApp: App {
                     }
             } else {
                 NavigationView {
-                    LandmarkRow(landmark: landmarks[0])
+                    LandmarkRow(landmark: ModelData().landmarks[0])
+                        .environment(modelData)
                 }
                 .environmentObject(listViewModel)
             }
