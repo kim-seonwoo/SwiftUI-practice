@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct IntroView: View {
-    
     @AppStorage("signed_in") var currentUserSignedIn: Bool = false
+    @State var shouldShowListView: Bool = false
     
     var body: some View {
         ZStack {
@@ -21,7 +21,7 @@ struct IntroView: View {
             if currentUserSignedIn {
                 ProfileView()
                     .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
-            } else {
+            }  else {
                 OnboardingView()
                     .transition(.asymmetric(insertion: .move(edge: .top), removal: .move(edge: .bottom)))
             }

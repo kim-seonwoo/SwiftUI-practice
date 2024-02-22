@@ -10,7 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     
     // 0-Welcome Screen, 1-Add name, 2-Add age, 3-Add gender
-    @State var onboardingState: Int = 3
+    @State var onboardingState: Int = 0
     let transition: AnyTransition = .asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading))
     
     @State var name: String = ""

@@ -10,9 +10,9 @@ import SwiftUI
 struct ListView: View {
     
     @EnvironmentObject var listViewModel: ListViewModel
+    @AppStorage("name") var currentUserName: String?
     @State var isPresented = false
 
-    
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text("전투 병력: \(listViewModel.countCompleted())명")
@@ -43,12 +43,13 @@ struct ListView: View {
                 .onMove(perform: listViewModel.moveItem)
             }
             .listStyle(.plain)
-            .navigationTitle("김선우의 \(listViewModel.nameGroup())")
+            .navigationTitle("\(currentUserName ?? "김선우")의 \(listViewModel.nameGroup())")
             .navigationBarItems(leading: EditButton()
                 , trailing: NavigationLink("Add", destination: AddView()
                                       )).foregroundColor(.primary)
         }
         .padding(20)
+        .navigationBarBackButtonHidden()
     }
 }
 

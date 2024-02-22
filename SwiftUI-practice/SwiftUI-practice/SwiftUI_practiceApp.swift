@@ -24,8 +24,10 @@ struct SwiftUI_practiceApp: App {
                     }
             } else {
                 NavigationView {
-                    LandmarkRow(landmark: ModelData().landmarks[0])
-                        .environment(modelData)
+//                    LandmarkRow(landmark: ModelData().landmarks[0])
+//                        .environment(modelData)
+                    
+                    IntroView()
                 }
                 .environmentObject(listViewModel)
             }
