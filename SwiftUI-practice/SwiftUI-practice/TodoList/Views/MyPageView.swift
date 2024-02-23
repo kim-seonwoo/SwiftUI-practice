@@ -40,7 +40,7 @@ struct MyPageView: View {
     
     func animation() {
         guard !animate else {return}
-        DispatchQueue.main.asyncAfter(deadline: .now() + 4.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
             withAnimation(
                 Animation
                     .easeInOut(duration: 0.3)
