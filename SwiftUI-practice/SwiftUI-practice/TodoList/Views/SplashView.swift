@@ -10,15 +10,13 @@ import SwiftUI
 struct SplashView: View {
     var body: some View {
         ZStack {
-            Color.white
+            Color.black
                 .ignoresSafeArea()
             VStack {
-                Image("dragon")
-                Text("ARMY")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .fontDesign(.rounded)
-                    .foregroundColor(.black)
+                Image("splash")
+                LoginView()
+                    .frame(width: 100)
+                    .frame(maxWidth: .infinity)
             }
         }
     }

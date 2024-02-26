@@ -26,7 +26,7 @@ struct ContentView: View {
 //                    LandmarkRow(landmark: ModelData().landmarks[0])
 //                        .environment(modelData)
                 
-                IntroView()
+                LoginView()
             }
             .environmentObject(listViewModel)
         }
