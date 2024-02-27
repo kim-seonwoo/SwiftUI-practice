@@ -33,6 +33,9 @@
 		0B4A86AF2B7CFEBF00D97E9B /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A86AE2B7CFEBF00D97E9B /* IntroView.swift */; };
 		0B4A86B12B7CFFFC00D97E9B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A86B02B7CFFFC00D97E9B /* OnboardingView.swift */; };
 		0B4D3CBC2B88D18F006F0401 /* AppleLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D3CBB2B88D18F006F0401 /* AppleLoginView.swift */; };
+		0B6256B02B8C9395006C4CE1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256AF2B8C9395006C4CE1 /* ProgressView.swift */; };
+		0B6256B22B8CA216006C4CE1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256B12B8CA216006C4CE1 /* PickerView.swift */; };
+		0B6256B42B8CA2F5006C4CE1 /* OnboardingSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256B32B8CA2F5006C4CE1 /* OnboardingSwipeView.swift */; };
 		0B9174442B8493AA008AF6CB /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174432B8493AA008AF6CB /* LandmarkList.swift */; };
 		0B9174462B8494F0008AF6CB /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174452B8494F0008AF6CB /* LandmarkDetail.swift */; };
 		0B9174492B849649008AF6CB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174472B849649008AF6CB /* MapView.swift */; };
@@ -84,6 +87,9 @@
 		0B4A86AE2B7CFEBF00D97E9B /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		0B4A86B02B7CFFFC00D97E9B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		0B4D3CBB2B88D18F006F0401 /* AppleLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginView.swift; sourceTree = "<group>"; };
+		0B6256AF2B8C9395006C4CE1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		0B6256B12B8CA216006C4CE1 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		0B6256B32B8CA2F5006C4CE1 /* OnboardingSwipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSwipeView.swift; sourceTree = "<group>"; };
 		0B9174432B8493AA008AF6CB /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		0B9174452B8494F0008AF6CB /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		0B9174472B849649008AF6CB /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -159,6 +165,9 @@
 				0B0CC2782B7F9F6600E925BC /* MyPageView.swift */,
 				0B0CC27A2B7FA90100E925BC /* SplashView.swift */,
 				0B4D3CBB2B88D18F006F0401 /* AppleLoginView.swift */,
+				0B6256AF2B8C9395006C4CE1 /* ProgressView.swift */,
+				0B6256B12B8CA216006C4CE1 /* PickerView.swift */,
+				0B6256B32B8CA2F5006C4CE1 /* OnboardingSwipeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -373,6 +382,7 @@
 				0B0CC26D2B7F3C1200E925BC /* ListView.swift in Sources */,
 				0BE0A7B12B848E120064CAEC /* ModelData.swift in Sources */,
 				0B2C3E002B85FF2E00DA0FA7 /* HexagonParameters.swift in Sources */,
+				0B6256B22B8CA216006C4CE1 /* PickerView.swift in Sources */,
 				0B0CC27B2B7FA90100E925BC /* SplashView.swift in Sources */,
 				0B4A86AF2B7CFEBF00D97E9B /* IntroView.swift in Sources */,
 				0BD9103C2B7264D1008345EA /* ColorBootcamp.swift in Sources */,
@@ -384,6 +394,7 @@
 				0B2C3DFD2B85FA6400DA0FA7 /* FavoriteButton.swift in Sources */,
 				0BD9103A2B726164008345EA /* ShapeBootcamp.swift in Sources */,
 				0BD9104C2B7A671E008345EA /* TransitionBootcamp.swift in Sources */,
+				0B6256B02B8C9395006C4CE1 /* ProgressView.swift in Sources */,
 				0B9174492B849649008AF6CB /* MapView.swift in Sources */,
 				0B4A86AC2B7BB2A500D97E9B /* PickerBootcamp.swift in Sources */,
 				0B0CC26F2B7F3DD000E925BC /* ListRowView.swift in Sources */,
@@ -408,6 +419,7 @@
 				0B0CC2772B7F4E6700E925BC /* ListViewModel.swift in Sources */,
 				0B4A86B12B7CFFFC00D97E9B /* OnboardingView.swift in Sources */,
 				0BE0A7B62B84908F0064CAEC /* LandmarkRow.swift in Sources */,
+				0B6256B42B8CA2F5006C4CE1 /* OnboardingSwipeView.swift in Sources */,
 				0B9174462B8494F0008AF6CB /* LandmarkDetail.swift in Sources */,
 				0BD9102A2B725571008345EA /* SwiftUI_practiceApp.swift in Sources */,
 				0B2C3E082B8604BE00DA0FA7 /* Badge.swift in Sources */,

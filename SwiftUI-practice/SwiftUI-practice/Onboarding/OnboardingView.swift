@@ -11,6 +11,8 @@ struct OnboardingView: View {
     
     // 0-Welcome Screen, 1-Add name, 2-Add age, 3-Add gender
     @State var onboardingState: Int = 0
+    @State var progress: Double = 0.0
+
     let transition: AnyTransition = .asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading))
     
     @State var name: String = ""
@@ -27,8 +29,10 @@ struct OnboardingView: View {
     @AppStorage("signed_in") var currentUserSignedIn: Bool = false
     
     var body: some View {
-        ZStack{
+        VStack{
             // contetnt
+       
+            ProgressBarView(progress: $progress)
             ZStack {
                 switch onboardingState {
                 case 0:
@@ -168,8 +172,8 @@ extension OnboardingView {
 }
 
 extension OnboardingView {
+    
     func handleNextButtonPressed() {
-        
         //Check Inputs
         switch onboardingState {
         case 1:
@@ -186,7 +190,10 @@ extension OnboardingView {
             break
         }
         
-        // GO to next section
+        // Increase progress
+        progress += 0.1
+        
+        // Go to next section
         if onboardingState == 3 {
             signIn()
         } else {
@@ -195,6 +202,7 @@ extension OnboardingView {
             }
         }
     }
+
     
     func signIn() {
         currentUserName = name
