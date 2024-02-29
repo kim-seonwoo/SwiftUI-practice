@@ -21,7 +21,7 @@
             <Locations>
                <Location
                   uuid = "5D9E3430-DD54-4B5F-8DF2-867B8A47DBFC - 116d78a6b514af88"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SwiftUI_practice.ProfileView.body.getter : some"
@@ -36,7 +36,7 @@
                </Location>
                <Location
                   uuid = "5D9E3430-DD54-4B5F-8DF2-867B8A47DBFC - 116d78a6b514a8e2"
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "SwiftUI_practice.ProfileView.body.getter : some"
