@@ -50,21 +50,14 @@
 		0B6256CD2B921E4C006C4CE1 /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6256CC2B921E4C006C4CE1 /* KakaoSDKTalk */; };
 		0B6256CF2B921E4C006C4CE1 /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6256CE2B921E4C006C4CE1 /* KakaoSDKTemplate */; };
 		0B6256D12B921E4C006C4CE1 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6256D02B921E4C006C4CE1 /* KakaoSDKUser */; };
-		0B6256D72B930C03006C4CE1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256D62B930C03006C4CE1 /* SplashView.swift */; };
-		0B6256D92B930C12006C4CE1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256D82B930C12006C4CE1 /* LoginView.swift */; };
-		0B6256DB2B930C26006C4CE1 /* OnboardingContentVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256DA2B930C26006C4CE1 /* OnboardingContentVIew.swift */; };
-		0B6256DD2B930C31006C4CE1 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256DC2B930C31006C4CE1 /* ProgressBar.swift */; };
-		0B6256E02B930C4E006C4CE1 /* nextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256DF2B930C4E006C4CE1 /* nextButton.swift */; };
-		0B6256E22B930C59006C4CE1 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256E12B930C59006C4CE1 /* SurveyView.swift */; };
-		0B6256E42B930C90006C4CE1 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256E32B930C90006C4CE1 /* SplashViewModel.swift */; };
-		0B6256E62B930C9C006C4CE1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256E52B930C9C006C4CE1 /* AuthViewModel.swift */; };
-		0B6256E82B930CAC006C4CE1 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256E72B930CAC006C4CE1 /* OnboardingViewModel.swift */; };
-		0B6256EE2B930D11006C4CE1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256ED2B930D11006C4CE1 /* PickerView.swift */; };
-		0B6256F02B9310E4006C4CE1 /* OnboardingCompletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6256EF2B9310E4006C4CE1 /* OnboardingCompletView.swift */; };
 		0B9174442B8493AA008AF6CB /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174432B8493AA008AF6CB /* LandmarkList.swift */; };
 		0B9174462B8494F0008AF6CB /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174452B8494F0008AF6CB /* LandmarkDetail.swift */; };
 		0B9174492B849649008AF6CB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174472B849649008AF6CB /* MapView.swift */; };
 		0B91744A2B849649008AF6CB /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9174482B849649008AF6CB /* CircleImage.swift */; };
+		0BD8A69E2B96FAF6008996AF /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A69D2B96FAF6008996AF /* CategoryHome.swift */; };
+		0BD8A6A02B96FD91008996AF /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A69F2B96FD91008996AF /* CategoryRow.swift */; };
+		0BD8A6A22B96FF41008996AF /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A6A12B96FF41008996AF /* CategoryItem.swift */; };
+		0BD8A6A42B970171008996AF /* LandmarkContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8A6A32B970171008996AF /* LandmarkContentView.swift */; };
 		0BD9102A2B725571008345EA /* SwiftUI_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD910292B725571008345EA /* SwiftUI_practiceApp.swift */; };
 		0BD9102E2B725572008345EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD9102D2B725572008345EA /* Assets.xcassets */; };
 		0BD910312B725572008345EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD910302B725572008345EA /* Preview Assets.xcassets */; };
@@ -118,21 +111,14 @@
 		0B6256B52B90BCCE006C4CE1 /* SurveyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyButton.swift; sourceTree = "<group>"; };
 		0B6256B72B90C39F006C4CE1 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
 		0B6256D22B921F85006C4CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		0B6256D62B930C03006C4CE1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		0B6256D82B930C12006C4CE1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		0B6256DA2B930C26006C4CE1 /* OnboardingContentVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContentVIew.swift; sourceTree = "<group>"; };
-		0B6256DC2B930C31006C4CE1 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
-		0B6256DF2B930C4E006C4CE1 /* nextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextButton.swift; sourceTree = "<group>"; };
-		0B6256E12B930C59006C4CE1 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
-		0B6256E32B930C90006C4CE1 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
-		0B6256E52B930C9C006C4CE1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		0B6256E72B930CAC006C4CE1 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
-		0B6256ED2B930D11006C4CE1 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
-		0B6256EF2B9310E4006C4CE1 /* OnboardingCompletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCompletView.swift; sourceTree = "<group>"; };
 		0B9174432B8493AA008AF6CB /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		0B9174452B8494F0008AF6CB /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		0B9174472B849649008AF6CB /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0B9174482B849649008AF6CB /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0BD8A69D2B96FAF6008996AF /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		0BD8A69F2B96FD91008996AF /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		0BD8A6A12B96FF41008996AF /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		0BD8A6A32B970171008996AF /* LandmarkContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkContentView.swift; sourceTree = "<group>"; };
 		0BD910262B725571008345EA /* SwiftUI-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD910292B725571008345EA /* SwiftUI_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_practiceApp.swift; sourceTree = "<group>"; };
 		0BD9102D2B725572008345EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -273,78 +259,14 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		0B6256D32B930BDC006C4CE1 /* HMH_Demo */ = {
+		0BD8A69C2B96FAE0008996AF /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				0B6256D52B930BF1006C4CE1 /* Presentation */,
-				0B6256D42B930BE8006C4CE1 /* ViewModel */,
+				0BD8A69D2B96FAF6008996AF /* CategoryHome.swift */,
+				0BD8A69F2B96FD91008996AF /* CategoryRow.swift */,
+				0BD8A6A12B96FF41008996AF /* CategoryItem.swift */,
 			);
-			path = HMH_Demo;
-			sourceTree = "<group>";
-		};
-		0B6256D42B930BE8006C4CE1 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				0B6256E32B930C90006C4CE1 /* SplashViewModel.swift */,
-				0B6256E52B930C9C006C4CE1 /* AuthViewModel.swift */,
-				0B6256E72B930CAC006C4CE1 /* OnboardingViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		0B6256D52B930BF1006C4CE1 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				0B6256EC2B930CDB006C4CE1 /* Story */,
-				0B6256EB2B930CCD006C4CE1 /* Onboarding */,
-				0B6256EA2B930CC8006C4CE1 /* Login */,
-				0B6256E92B930CBE006C4CE1 /* Splash */,
-				0B6256DE2B930C35006C4CE1 /* Components */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		0B6256DE2B930C35006C4CE1 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				0B6256DC2B930C31006C4CE1 /* ProgressBar.swift */,
-				0B6256DF2B930C4E006C4CE1 /* nextButton.swift */,
-				0B6256ED2B930D11006C4CE1 /* PickerView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		0B6256E92B930CBE006C4CE1 /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				0B6256D62B930C03006C4CE1 /* SplashView.swift */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
-		0B6256EA2B930CC8006C4CE1 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				0B6256D82B930C12006C4CE1 /* LoginView.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		0B6256EB2B930CCD006C4CE1 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				0B6256DA2B930C26006C4CE1 /* OnboardingContentVIew.swift */,
-				0B6256E12B930C59006C4CE1 /* SurveyView.swift */,
-				0B6256EF2B9310E4006C4CE1 /* OnboardingCompletView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		0B6256EC2B930CDB006C4CE1 /* Story */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Story;
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		0BD9101D2B725571008345EA = {
@@ -366,7 +288,6 @@
 		0BD910282B725571008345EA /* SwiftUI-practice */ = {
 			isa = PBXGroup;
 			children = (
-				0B6256D32B930BDC006C4CE1 /* HMH_Demo */,
 				0B6256D22B921F85006C4CE1 /* Info.plist */,
 				0BE0A7AB2B84808A0064CAEC /* Landmark */,
 				0B4A86AD2B7CFEAD00D97E9B /* Onboarding */,
@@ -395,6 +316,7 @@
 				0BE0A7B22B848E8E0064CAEC /* Views */,
 				0BE0A7B42B848E9D0064CAEC /* Resources */,
 				0BE0A7B32B848E960064CAEC /* Models */,
+				0BD8A6A32B970171008996AF /* LandmarkContentView.swift */,
 			);
 			path = Landmark;
 			sourceTree = "<group>";
@@ -402,6 +324,7 @@
 		0BE0A7B22B848E8E0064CAEC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0BD8A69C2B96FAE0008996AF /* Categories */,
 				0BE0A7B52B84908F0064CAEC /* LandmarkRow.swift */,
 				0B9174432B8493AA008AF6CB /* LandmarkList.swift */,
 				0B9174452B8494F0008AF6CB /* LandmarkDetail.swift */,
@@ -524,25 +447,23 @@
 			files = (
 				0B2C3E132B862E1E00DA0FA7 /* HikeGraph.swift in Sources */,
 				0BD910482B73A418008345EA /* StackBootcamp.swift in Sources */,
+				0BD8A6A42B970171008996AF /* LandmarkContentView.swift in Sources */,
 				0B91744A2B849649008AF6CB /* CircleImage.swift in Sources */,
 				0B0CC26D2B7F3C1200E925BC /* ListView.swift in Sources */,
 				0BE0A7B12B848E120064CAEC /* ModelData.swift in Sources */,
 				0B2C3E002B85FF2E00DA0FA7 /* HexagonParameters.swift in Sources */,
 				0B6256B22B8CA216006C4CE1 /* PickerView.swift in Sources */,
 				0B0CC27B2B7FA90100E925BC /* SplashView.swift in Sources */,
-				0B6256EE2B930D11006C4CE1 /* PickerView.swift in Sources */,
 				0B4A86AF2B7CFEBF00D97E9B /* IntroView.swift in Sources */,
 				0BD9103C2B7264D1008345EA /* ColorBootcamp.swift in Sources */,
 				0B0CC2742B7F48A800E925BC /* ItemModel.swift in Sources */,
 				0B2C3E172B88BC1D00DA0FA7 /* ContentView.swift in Sources */,
 				0B9174442B8493AA008AF6CB /* LandmarkList.swift in Sources */,
-				0B6256E22B930C59006C4CE1 /* SurveyView.swift in Sources */,
 				0B2C3E142B862E1E00DA0FA7 /* HikeDetail.swift in Sources */,
 				0B4D3CBC2B88D18F006F0401 /* AppleLoginView.swift in Sources */,
 				0B2C3DFD2B85FA6400DA0FA7 /* FavoriteButton.swift in Sources */,
-				0B6256E02B930C4E006C4CE1 /* nextButton.swift in Sources */,
+				0BD8A69E2B96FAF6008996AF /* CategoryHome.swift in Sources */,
 				0BD9103A2B726164008345EA /* ShapeBootcamp.swift in Sources */,
-				0B6256F02B9310E4006C4CE1 /* OnboardingCompletView.swift in Sources */,
 				0BD9104C2B7A671E008345EA /* TransitionBootcamp.swift in Sources */,
 				0B6256B02B8C9395006C4CE1 /* ProgressView.swift in Sources */,
 				0B9174492B849649008AF6CB /* MapView.swift in Sources */,
@@ -550,33 +471,28 @@
 				0B0CC26F2B7F3DD000E925BC /* ListRowView.swift in Sources */,
 				0B4A86AA2B7BB18600D97E9B /* ToggleBootcamp.swift in Sources */,
 				0B6256B62B90BCCE006C4CE1 /* SurveyButton.swift in Sources */,
+				0BD8A6A02B96FD91008996AF /* CategoryRow.swift in Sources */,
 				0B2C3E062B86049000DA0FA7 /* RotateBadgeSymbol.swift in Sources */,
 				0BD910442B7359EF008345EA /* FrameBootcamp.swift in Sources */,
 				0BD910402B734A64008345EA /* IconBootcamp.swift in Sources */,
-				0B6256DD2B930C31006C4CE1 /* ProgressBar.swift in Sources */,
-				0B6256D72B930C03006C4CE1 /* SplashView.swift in Sources */,
-				0B6256E42B930C90006C4CE1 /* SplashViewModel.swift in Sources */,
 				0B2C3E122B862E1E00DA0FA7 /* GraphCapsule.swift in Sources */,
 				0BE0A7AD2B8480B60064CAEC /* Landmark.swift in Sources */,
 				0B0CC2682B7E067600E925BC /* ProfileView.swift in Sources */,
-				0B6256DB2B930C26006C4CE1 /* OnboardingContentVIew.swift in Sources */,
 				0BD910462B735D16008345EA /* backgroundOverlayBootcamp.swift in Sources */,
 				0B2C3E022B85FFC800DA0FA7 /* BadgeBackground.swift in Sources */,
+				0BD8A6A22B96FF41008996AF /* CategoryItem.swift in Sources */,
 				0B0CC2712B7F432C00E925BC /* AddView.swift in Sources */,
 				0BD910382B725C75008345EA /* TextBootcamp.swift in Sources */,
 				0B0CC2792B7F9F6600E925BC /* MyPageView.swift in Sources */,
 				0BD9103E2B73461F008345EA /* GradientBootcamp.swift in Sources */,
 				0BD9104A2B74B04C008345EA /* ConditionalBootcamp.swift in Sources */,
 				0B2C3E0C2B862D9500DA0FA7 /* Hike.swift in Sources */,
-				0B6256E62B930C9C006C4CE1 /* AuthViewModel.swift in Sources */,
-				0B6256E82B930CAC006C4CE1 /* OnboardingViewModel.swift in Sources */,
 				0B2C3E152B862E1E00DA0FA7 /* HikeView.swift in Sources */,
 				0B2C3E042B86040600DA0FA7 /* BadgeSymbol.swift in Sources */,
 				0BD910422B735650008345EA /* ImageBootcamp.swift in Sources */,
 				0B0CC2772B7F4E6700E925BC /* ListViewModel.swift in Sources */,
 				0B6256B82B90C39F006C4CE1 /* SurveyView.swift in Sources */,
 				0B4A86B12B7CFFFC00D97E9B /* OnboardingView.swift in Sources */,
-				0B6256D92B930C12006C4CE1 /* LoginView.swift in Sources */,
 				0BE0A7B62B84908F0064CAEC /* LandmarkRow.swift in Sources */,
 				0B6256B42B8CA2F5006C4CE1 /* OnboardingSwipeView.swift in Sources */,
 				0B9174462B8494F0008AF6CB /* LandmarkDetail.swift in Sources */,
