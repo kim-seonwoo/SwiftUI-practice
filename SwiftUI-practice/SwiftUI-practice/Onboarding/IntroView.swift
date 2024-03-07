@@ -19,8 +19,8 @@ struct IntroView: View {
             .ignoresSafeArea()
             
             if currentUserSignedIn {
-                ProfileView()
-                    .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
+//                ProfileView()
+//                    .transition(.asymmetric(insertion: .move(edge: .bottom), removal: .move(edge: .top)))
             }  else {
                 OnboardingView()
                     .transition(.asymmetric(insertion: .move(edge: .top), removal: .move(edge: .bottom)))
